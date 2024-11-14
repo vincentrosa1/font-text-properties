@@ -23,14 +23,19 @@
     --dk-gray: #222;
 
     /* Font Stacks */
-    /* add the two font stacks here */
+    --heading-fonts: 'Seymour One', Impact, sans-serif;
+	--body-fonts: lato, Arial, sans-serif;
 }
 
 body{
 	/* set the font family to Lato, Arial, sans-serif (--body-fonts) */
+	font-family: var(--body-fonts);
 	/* Set the line height to 1.5 */
+	line-height: 1.5;
 	/* set the font size to 1.1rem	*/
+	font-size: 1.1rem;
 	/* set the font color to #222 (--dk-gray) */
+	color: var(--dk-gray);
 	margin: 0;
 	padding: 0;
 }
