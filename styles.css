@@ -81,14 +81,20 @@ nav ul{
 
 nav a{
 	/* make these display as block level elements */
+	display: block;
 	margin: 1rem auto;
 	padding: 1rem;
 	background-color: var(--tiffany);
 	/* set the font color to #222 (--dk-gray) */
+	color: var(--dk-gray);
 	/* center align the text */
+	text-align: center;
 	/* remove the underline */
+	text-decoration: none;
 	/* make the font's size 1.2rem */
+	font-size: 1.2rem;
 	/* make the font bolder (600) */
+	font-weight: 600;
 }
 
 nav a:hover{
@@ -110,8 +116,11 @@ section{
 
 p{
 	/* set a max-width of 55 characters */
+	max-width: 55ch;
 	/* add an indent on the first line of 2rem */
+	text-indent: 2rem;
 	/* center those paragraphs (not the text) on the page */
+	margin: 0 auto;
 	padding: 0.5rem;
 }
 
@@ -125,11 +134,13 @@ a:hover{
 
 dl, ol, main ul{
 	/* limit the width of these lists to 55 characters */
+	max-width: 55ch;
 	margin: 1rem auto;
 }
 
 dt{
 	/* make this font display in bold weight */
+	font-weight: bold;
 }
 
 dt::before{
